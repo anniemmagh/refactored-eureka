@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Music app</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-player">
+            <audio controls id="song">
+                <source src="https://soundcloud.com/user-595697287/intergalactic-beastie-boys?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+            </audio>
+            <input type="range" value="0" id="progress">
+        </div>
+        <div>
+            <i onclick="playPause()" class="fa-light fa-play" id="playIcon"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/e0bde5f2ae.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
