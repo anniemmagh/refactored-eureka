@@ -1,20 +1,4 @@
-*{
-    margin: 0;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-.music-player{
-    width: auto;
-    border: 2px solid purple;
-    border-radius: 10px;
-    text-align: center;
-}
-#progress{
-    display: block;
-margin: auto;
-}
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
