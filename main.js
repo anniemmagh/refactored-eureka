@@ -39,20 +39,20 @@
 // [a,b,...c]=array;
 // console.log(a,b,...c)
 
-function flowers(flowers){
-switch(flowers){
-  case 'ვარდი':
-console.log('ეს არის ვარდი!');
-break;
-  case 'ყაყაჩო':
-    console.log('კი , ეს ყაყაჩოა!');
-    break;
-  case 'ია':
-    console.log('იააა , კი!')
-    break;
-  default:
-    console.log('არცერთი ყვავილი არ არის ნაპოვნი!')
+// function flowers(flowers){
+// switch(flowers){
+//   case 'ვარდი':
+// console.log('ეს არის ვარდი!');
+// break;
+//   case 'ყაყაჩო':
+//     console.log('კი , ეს ყაყაჩოა!');
+//     break;
+//   case 'ია':
+//     console.log('იააა , კი!')
+//     break;
+//   default:
+//     console.log('არცერთი ყვავილი არ არის ნაპოვნი!')
 
-}
-}
-flowers('ყაყაჩო')
+// }
+// }
+// flowers('ყაყაჩო')
